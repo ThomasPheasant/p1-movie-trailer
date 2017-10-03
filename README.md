@@ -22,6 +22,9 @@
 * Color?
 3. Should be dark colors mostly with maybe some funky attributes to show the craziness of the Dr. Suess world. REd and plues and purples with black for horror. Yellow, White, Red, Green, or Blue for the Dr. Suess.
 
+## Visual Design
+
+*Collage from art Direction
 
 
 
