@@ -1,11 +1,11 @@
 /* MY AWESOME WEBSITE */
 
 $bg : #040f4a;
-//$font : white;
+$color-primary : white;
 
 
 
 body{
     background: $bg;
-    //font: $font;
+    color: $color-primary;
 }
