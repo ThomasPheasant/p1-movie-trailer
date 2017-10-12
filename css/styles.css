@@ -6,6 +6,11 @@ body {
 
 /* line 13, /Users/tpheasant/Desktop/p1-movie-trailer/css/styles.scss */
 h1 {
-  color: red; }
+  color: red;
+  font-family: 'suess', sans-serif; }
+
+/* line 20, /Users/tpheasant/Desktop/p1-movie-trailer/css/styles.scss */
+.char1 {
+  color: white; }
 
 /*# sourceMappingURL=styles.css.map */
