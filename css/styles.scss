@@ -2,6 +2,7 @@
 
 @import 'normalize';
 @import 'mediaelementplayer';
+@import url('https://fonts.googleapis.com/css?family=Coda+Caption:800|Roboto+Slab');
 
 $bg : #040f4a;
 $color-primary : white;
@@ -15,8 +16,12 @@ body{
 
 h1{
     color: red;
-    font-family: 'suess', sans-serif;
-    
+    font-family: 'Coda Caption', sans-serif;   
+}
+
+p{
+    color: white;
+    font-family: 'Roboto Slab', serif;
 }
 
 //Lettering Style Temp

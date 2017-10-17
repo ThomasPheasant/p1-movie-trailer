@@ -7,6 +7,7 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Coda+Caption:800|Roboto+Slab");
 /* line 12, /Users/tpheasant/Desktop/p1-movie-trailer/css/_normalize.css */
 html {
   line-height: 1.15;
@@ -1117,17 +1118,22 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   display: block; }
 
 /* End: Error */
-/* line 11, /Users/tpheasant/Desktop/p1-movie-trailer/css/styles.scss */
+/* line 12, /Users/tpheasant/Desktop/p1-movie-trailer/css/styles.scss */
 body {
   background: #040f4a;
   color: white; }
 
-/* line 16, /Users/tpheasant/Desktop/p1-movie-trailer/css/styles.scss */
+/* line 17, /Users/tpheasant/Desktop/p1-movie-trailer/css/styles.scss */
 h1 {
   color: red;
-  font-family: 'suess', sans-serif; }
+  font-family: 'Coda Caption', sans-serif; }
 
-/* line 23, /Users/tpheasant/Desktop/p1-movie-trailer/css/styles.scss */
+/* line 22, /Users/tpheasant/Desktop/p1-movie-trailer/css/styles.scss */
+p {
+  color: white;
+  font-family: 'Roboto Slab', serif; }
+
+/* line 28, /Users/tpheasant/Desktop/p1-movie-trailer/css/styles.scss */
 .char1 {
   color: white; }
 
