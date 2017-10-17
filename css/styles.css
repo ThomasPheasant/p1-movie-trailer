@@ -1118,30 +1118,43 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   display: block; }
 
 /* End: Error */
-/* line 12, /Users/tpheasant/Desktop/p1-movie-trailer/css/styles.scss */
+/* line 11, /Users/tpheasant/Desktop/p1-movie-trailer/css/styles.scss */
 body {
-  background: #040f4a;
+  background: url(../img/smokeybg.png);
   color: white; }
 
-/* line 17, /Users/tpheasant/Desktop/p1-movie-trailer/css/styles.scss */
+/* line 16, /Users/tpheasant/Desktop/p1-movie-trailer/css/styles.scss */
 h1 {
   color: red;
   font-family: 'Coda Caption', sans-serif; }
 
-/* line 22, /Users/tpheasant/Desktop/p1-movie-trailer/css/styles.scss */
+/* line 21, /Users/tpheasant/Desktop/p1-movie-trailer/css/styles.scss */
 p {
   color: white;
   font-family: 'Roboto Slab', serif; }
 
-/* line 28, /Users/tpheasant/Desktop/p1-movie-trailer/css/styles.scss */
+/* line 26, /Users/tpheasant/Desktop/p1-movie-trailer/css/styles.scss */
+.page {
+  display: flex; }
+
+/* line 29, /Users/tpheasant/Desktop/p1-movie-trailer/css/styles.scss */
+header,
+section,
+main,
+article,
+aside,
+footer {
+  flex: 1; }
+
+/* line 42, /Users/tpheasant/Desktop/p1-movie-trailer/css/styles.scss */
 .char1 {
   color: white; }
 
-/* line 31, /Users/tpheasant/Desktop/p1-movie-trailer/css/styles.scss */
+/* line 45, /Users/tpheasant/Desktop/p1-movie-trailer/css/styles.scss */
 .char2 {
   color: white; }
 
-/* line 34, /Users/tpheasant/Desktop/p1-movie-trailer/css/styles.scss */
+/* line 48, /Users/tpheasant/Desktop/p1-movie-trailer/css/styles.scss */
 .char3 {
   color: white; }
 

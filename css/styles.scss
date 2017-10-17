@@ -4,9 +4,8 @@
 @import 'mediaelementplayer';
 @import url('https://fonts.googleapis.com/css?family=Coda+Caption:800|Roboto+Slab');
 
-$bg : #040f4a;
+$bg : url(../img/smokeybg.png);
 $color-primary : white;
-
 
 
 body{
@@ -23,6 +22,21 @@ p{
     color: white;
     font-family: 'Roboto Slab', serif;
 }
+
+.page{
+    display: flex;
+}
+header,
+section,
+main,
+article,
+aside,
+footer{
+    flex:1
+}
+
+
+
 
 //Lettering Style Temp
 .char1{
