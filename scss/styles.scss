@@ -1,11 +1,14 @@
 /* MY AWESOME WEBSITE */
 
-@import 'normalize';
-@import 'mediaelementplayer';
-@import url('https://fonts.googleapis.com/css?family=Coda+Caption:800|Roboto+Slab');
+@import "normalize";
+@import "grid";
+@import "mediaelementplayer.scss";
+@import "main";
+@import "media-queries";
+@import url("https://fonts.googleapis.com/css?family=Coda+Caption:800|Roboto+Slab");
 
 $bg : url(../img/smokeybg.png);
-$color-primary : white;
+$color-primary : pink;
 
 
 body{
@@ -25,6 +28,9 @@ p{
 
 .page{
     display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: space-around;
 }
 header,
 section,
