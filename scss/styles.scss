@@ -19,6 +19,7 @@ body{
 h1{
     color: red;
     font-family: 'Coda Caption', sans-serif;
+    font-size: 4em;
 }
 
 p{
@@ -32,7 +33,10 @@ p{
     justify-content: space-around;
     align-items: space-around;
 }
-header,
+header{
+    display: flex;
+    justify-content: center;
+}
 section,
 main,
 article,
@@ -44,13 +48,8 @@ footer{
 
 
 
-//Lettering Style Temp
+/*Lettering Style Temp
 .char1{
     color: pink;
 }
-.char2{
-    color: white;
-}
-.char3{
-    color: white;
-}
+*/
