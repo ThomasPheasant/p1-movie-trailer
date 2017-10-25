@@ -50,7 +50,12 @@ header{
     display: flex;
     flex-wrap: wrap;
 }
-
+.i1{
+    flex-grow:1;
+}
+.i2{
+    flexgrow:2;
+}
 img{
     width: 45%;   
 }
