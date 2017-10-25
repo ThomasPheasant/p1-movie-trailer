@@ -6,6 +6,7 @@
 @import "main";
 @import "media-queries";
 @import url("https://fonts.googleapis.com/css?family=Coda+Caption:800|Roboto+Slab");
+@import url("https://fonts.googleapis.com/css?family=Creepster");
 
 $bg : url(../img/smokeybg.png);
 $color-primary : pink;
@@ -18,8 +19,14 @@ body{
 
 h1{
     color: red;
+    font-family: 'Creepster', cursive;
+    font-size: 8em;
+}
+
+h2{
+    color: red;
     font-family: 'Coda Caption', sans-serif;
-    font-size: 4em;
+    font-size: 2em;
 }
 
 p{
