@@ -64,6 +64,11 @@ img{
     height: 10%;   
 }
 
+article{
+    display: flex;
+    justify-content: space-between;
+}
+
 section,
 main,
 article,
