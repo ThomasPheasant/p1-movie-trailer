@@ -45,6 +45,16 @@ header{
     display: flex;
     justify-content: center;
 }
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 45%;   
+}
+
 section,
 main,
 article,
